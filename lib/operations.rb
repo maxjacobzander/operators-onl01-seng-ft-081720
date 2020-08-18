@@ -15,4 +15,4 @@ end
 
 # age < 2 ? "baby" : "not a baby"
 
-# Condition
+# Condition ? whatever is true :
