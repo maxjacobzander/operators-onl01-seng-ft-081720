@@ -12,3 +12,7 @@ def not_safe?(speed)
 end
 	
 
+rspec ./spec/operations_spec.rb:23 # Operations #not_safe? returns true if speed is greater than 60
+rspec ./spec/operations_spec.rb:28 # Operations #not_safe? returns true if speed is less than 40
+rspec ./spec/operations_spec.rb:33 # Operations #not_safe? returns false if thespeed is between 40 and 60
+rspec ./spec/operations_spec.rb:38 # Operations #not_safe? uses the ternary operator
