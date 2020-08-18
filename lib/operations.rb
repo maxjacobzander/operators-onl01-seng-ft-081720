@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  
+  if 
 end
 
 rspec ./spec/operations_spec.rb:6 # Operations #unsafe? returns true if speed is greater than 60
